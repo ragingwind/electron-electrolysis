@@ -1,10 +1,10 @@
 {
-  "private": true,
+  "name": "electron-electrolysis",
   "productName": "Electrolysis",
   "description": "Using Polymer with React on Electron",
   "license": "MIT",
   "main": "index.js",
-  "repository": "ragingwind/polymer-pilots/electrolysis",
+  "repository": "ragingwind/electron-electrolysis",
   "author": {
     "name": "ragingwind",
     "email": "ragingwind@gmail.com",
@@ -15,7 +15,8 @@
   },
   "scripts": {
     "start": "electron .",
-    "build": "rm -rf build; mkdir -p build; electron-packager . $npm_package_productName --out=build --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
+    "clean": "rm -rf build; mkdir -p build",
+    "build": "electron-packager . $npm_package_productName --out=build --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
   },
   "files": [
     "index.js",
@@ -23,6 +24,7 @@
     "index.css"
   ],
   "keywords": [
+    "electron",
     "electron-app"
   ],
   "devDependencies": {

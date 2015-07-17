@@ -1,11 +1,20 @@
-# Polymer Pilots
+# Electrolysis
 
-> Polymer Pilot Programs. It's sort of experimental approachings
+> Using Polymer with React on Electron.
 
-## [Electrolysis](/electrolysis)
+## How to use
 
-Experiment with Polymer, React and Electron
+```
+# install dependencies
+$ npm install && bower install
+
+# run
+$ npm start
+
+# build package
+$ npm run clean && npm run build
+```
 
 ## License
 
-MIT © [ragingwind](http://ragingwind.me)
+MIT © [Jimmy Moon](http://ragingwind.me)
