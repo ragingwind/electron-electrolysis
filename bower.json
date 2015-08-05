@@ -1,0 +1,6 @@
+{
+  "name": "electron-electrolysis",
+  "dependencies": {
+    "polymer": "~1.0.8"
+  }
+}
